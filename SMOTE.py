@@ -15,7 +15,7 @@ from random import uniform
 
 
 
-def transform(T, N, k, X, y, verbose=None):
+def transform(T, N, k, X, y):
     
     # This function has several required input parameters as shown below. It
     # returns a specified amount of synthesized vectors of the minority class.
